@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-family: 'Jost', sans-serif; 
+  @apply bg-primary
+}
+
+h1 {
+  @apply pl-4 pr-4 pb-2 text-xl font-bold uppercase tracking-widest text-tertiary inline-block border-b-2 border-tertiary
+}
+
+h2 {
+  @apply text-2xl flex justify-center font-bold text-secondary
+}
