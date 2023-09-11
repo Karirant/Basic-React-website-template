@@ -1,4 +1,4 @@
-# Basic-React-website-template
+# Basic React website template
 
 React / Tailwind / Framer Motion
 
