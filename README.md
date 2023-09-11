@@ -1,4 +1,5 @@
-# Website template #1
+# Website template
 
 Basic-React-website-template
-https://karirantanen.com/webtemplates/webtemplate1/
+
+[Link to the template preview](https://karirantanen.com/webtemplates/webtemplate1/)
