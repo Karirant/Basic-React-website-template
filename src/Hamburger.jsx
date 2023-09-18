@@ -56,7 +56,7 @@ const Hamburger = memo(({isNavOpen, handleClick}) => {
   return (
     <>
       <motion.div 
-        className="fixed mr-2 p-1.5 w-10 h-10 cursor-pointer bg-secondary right-2 z-10 rounded shadow-lg hover:bg-tertiary"
+        className="fixed mr-2 p-1.5 w-8 h-8 cursor-pointer bg-secondary right-2 z-10 rounded shadow-lg hover:bg-tertiary"
         variants={hamburger.hamburger}
         initial="initial"
         animate={isNavOpen ? "animate" : "initial"}
@@ -64,9 +64,9 @@ const Hamburger = memo(({isNavOpen, handleClick}) => {
 
         onClick={() => handleClick()}
       >
-        <motion.div className="w-full h-2 bg-primary" variants={bar.topBar}></motion.div>
-        <motion.div className="my-[4.5px] w-full h-1.5 bg-primary" variants={bar.middleBar}></motion.div>
-        <motion.div className="w-full h-1 bg-primary" variants={bar.bottomBar}></motion.div>
+        <motion.div className="w-full h-[4px] bg-primary" variants={bar.topBar}></motion.div>
+        <motion.div className="my-[4.5px] w-full h-[3px] bg-primary" variants={bar.middleBar}></motion.div>
+        <motion.div className="w-full h-[2px] bg-primary" variants={bar.bottomBar}></motion.div>
       </motion.div>
     </>
   )

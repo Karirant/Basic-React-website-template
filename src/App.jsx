@@ -52,7 +52,7 @@ function App() {
           >
 
             <motion.li 
-              className="pr-4 pl-8 py-2 mt-2 -my-1 bg-secondary text-primary font-semibold text-2xl uppercase text-right tracking-wider cursor-pointer rounded-tl-lg rounded-tr-lg hover:text-quaternaryhover:bg-tertiary tracking-widest"
+              className="pr-4 pl-8 py-2 -my-1 bg-secondary text-primary text-xl uppercase text-right cursor-pointer hover:text-quaternary hover:bg-tertiary tracking-widest"
               variants={navItemVariant}
               whileHover={{x: "-100%"}}
             >
@@ -66,7 +66,7 @@ function App() {
             </motion.li>
 
             <motion.li 
-              className="pr-4 pl-8 py-2 -my-1 bg-secondary text-primary font-semibold text-2xl uppercase text-right tracking-wider cursor-pointer hover:text-quaternary hover:bg-tertiary tracking-widest"
+              className="pr-4 pl-8 py-2 -my-1 bg-secondary text-primary text-xl uppercase text-right cursor-pointer hover:text-quaternary hover:bg-tertiary tracking-widest"
               variants={navItemVariant}
               whileHover={{x: "-100%"}}        
             >
@@ -80,7 +80,7 @@ function App() {
             </motion.li>
 
             <motion.li 
-              className="pr-4 pl-8 py-2 -my-1 bg-secondary text-primary font-semibold text-2xl uppercase text-right tracking-wider cursor-pointer hover:text-quaternary hover:bg-tertiary tracking-widest"
+              className="pr-4 pl-8 py-2 -my-1 bg-secondary text-primary text-xl uppercase text-right cursor-pointer hover:text-quaternary hover:bg-tertiary tracking-widest"
               variants={navItemVariant}
               whileHover={{x: "-100%"}}
             >
@@ -94,7 +94,7 @@ function App() {
             </motion.li>
 
             <motion.li 
-              className="pr-4 pl-8 py-2 -my-1 bg-secondary text-primary font-semibold text-2xl uppercase text-right tracking-wider cursor-pointer rounded-bl-lg rounded-br-lg hover:text-quaternaryhover:bg-tertiarytracking-widest"
+              className="pr-4 pl-8 py-2 -my-1 bg-secondary text-primary text-xl uppercase text-right cursor-pointer hover:text-quaternary hover:bg-tertiary tracking-widest"
               variants={navItemVariant}
               whileHover={{x: "-100%"}}
             >
@@ -111,7 +111,7 @@ function App() {
         </nav>
       </header>
 
-      <main className="flex-col pt-4 flex-col justify-center items-center">
+      <main className="flex pt-4 flex-col items-center max-w-6xl m-auto">
       
         <Routes>
           <Route path="/" element={<Home />} />
@@ -127,7 +127,7 @@ function App() {
         <div>
           Lorem Ipsum
         </div>
-        <div className="flex flex-wrap gap-x-4 gap-x-0 py-2 justify-center">   
+        <div className="flex flex-wrap gap-x-4 py-2 justify-center">   
           <NavLink to="/">Home</NavLink> |
           <NavLink to="/About">About</NavLink> |
           <NavLink to="/Blog">Blog</NavLink> |
